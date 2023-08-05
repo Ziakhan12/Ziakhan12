@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine</title>
+    <link rel="stylesheet" href="./Wine_files/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        *{
+    margin:0;
+    padding:0;
+}
+header{
+   background: url(./Wine_files/wine.jpg.Jpg);
+   height: 700px;
+    background-size: cover;
+    animation-name: ainmate;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;
+}
+@keyframes ainmate {
+    from{
+        background: url(./Wine_files/wine.jpg.Jpg);
+        background-size: cover;
+    }
+    to{
+        background: url(./Wine_files/tuf.jpg.jpeg);
+        background-size: cover;
+    }
+    
+}
+nav{
+    background-color: none;
+    position: fixed;
+    width: 95%;
+    margin-left:20px;
+    height: 45px;
+    background:white;
+
+}
+nav img{
+    width: 120px;
+    margin-top:-25px;
+
+}
+.nav-right {
+    display: inline-block;
+    float: right;
+    margin-top:10px;
+}
+.nav-right a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 15px;
+  
+}
+.article {
+    float:right;
+    margin-top:220px;
+    margin-right:180px;
+}
+.article h2{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.article button{
+    background: none;
+    height: 40px;
+    width: 100px;
+    color:rgb(255, 255, 255);
+    border:2px solid white;
+    margin-top:10px;
+    border-radius: 6px;
+    transition: all;
+    transition-duration:3s;
+    transition-timing-function: ease-in; 
+    box-shadow: 3px 3px 5px white;
+}
+.article button:hover{
+    background-color: blue;
+    color:white;
+    border:2px solid blue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+}
+.picture {
+    display: flex;
+    background-color: black;
+    height:350px;
+}
+.khan{
+    height: 280px;
+    width:400px;
+    border:none;
+}
+.khan img{
+    height: 100%;
+    width:100%;
+    
+}
+.bottle{
+    background-color:black;
+    height: 350px;
+  
+}
+.winee{
+    padding-left:230px;
+    display: flex;
+  
+}
+.darkwine{
+    height:280px;
+    width:130px;
+    border: none;
+}
+.darkwine img{
+    height:140px;
+    margin-top:40px;
+    margin-right: 10px;
+}
+.darkwine p{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    margin-left:29px;
+}
+.last{
+    height: 550px;
+    background: url(./Wine_files/wene.jpg);
+    background-size: cover;
+    
+     filter: blur(2px);
+    -webkit-filter: blur(2px);
+   
+}
+
+.picked{
+    height: 0px;
+    width: 360px;
+    color:white;
+    position: relative;
+    top: -410px;
+    left: 130px;
+    /* margin-right:150px; */
+    background: none;
+}
+.picked h1{
+    font-size: 45px;
+}
+.picked span{
+    font-size: 28px;
+    color:rgb(188, 178, 178);
+}
+.picked h2{
+    font-size:19px;
+    padding: 5px;
+}
+ 
+.picked button{
+    background: none;
+    height: 40px;
+    width: 100px;
+    color:rgb(255, 255, 255);
+    border:2px solid white;
+    margin-top:10px;
+    border-radius: 6px;
+    transition: all;
+    transition-duration:3s;
+    transition-timing-function: ease-in; 
+    box-shadow: 2px 2px 2px white;
+}
+.picked button:hover{
+    background-color: gray;
+    color:black;
+    border:2px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px gray;
+}
+.Feature{
+    height:400px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.Feature h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:20px;
+}
+.seller{
+    display: flex;
+    margin-left:450px;
+    margin-top:10px;
+}
+.seller p{
+    font-size: small;
+    padding-left: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#best{
+    color:yellow;
+}
+.wineee{
+    display: flex;
+}
+.darko{
+    height: 300px;
+    width:300px;
+    margin-top:50px;
+}
+.darko img{
+    width: 150px;
+}
+.darko span{
+    color:red;
+}
+.color{
+    background: url(./wine_files/yeag.webp);
+    height: 500px;
+    background-size: cover;
+    border:2px solid white;
+    border-left:none;
+    border-right:none;
+
+}
+.Review h1{
+    font-size:45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.picc{
+    display: inline-block;
+}
+.Review img{
+    width:270px;
+    border-radius: 50%;
+    border:10px solid gray;
+    margin-right: 700px;
+    margin-top:100px;
+}
+.Review p{
+    margin-left:480px;
+    margin-top: -130px;
+}
+.Review button{
+    background: none;
+    height: 40px;
+    width: 100px;
+    color:rgb(255, 255, 255);
+    border:2px solid white;
+    margin-top:10px;
+    border-radius: 6px;
+    transition: all;
+    transition-duration:3s;
+    transition-timing-function: ease-in; 
+    box-shadow: 3px 3px 3px black;
+    margin-left:190px;
+}
+footer{
+    background-color: rgb(115, 115, 115);
+    height: 300px;
+}
+.footer-1{
+    display: flex;
+}
+.footer-2{
+    height: 250px;
+    width:400px;
+    margin-top:5px;
+}
+.footer-2 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    margin-left:190px;
+}
+.footer-2 ul{
+    padding-top:10px;
+}
+.footer-2 ul li{
+    padding-top: 10px;
+    margin-left:190px;
+    list-style: none;
+}
+.footer-3{
+    height: 250px;
+    width:400px;
+    margin-top:5px;
+}
+.footer-3 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    
+}
+.footer-3 input{
+    height: 30px;
+    text-align: center;
+    width: 300px;
+    margin-top:40px;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.footer-3 button{
+    background: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 7px;
+    border:2px solid white;
+    margin-top:20px;
+    color:white;
+}
+
+.footer-4{
+    height: 250px;
+    width:400px;
+    margin-top:5px;
+}
+.footer-4 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+ 
+}
+.footer-4 h5{
+    margin-top:30px;
+}
+.icon {
+    display: flex;
+    padding-left:110px;
+    padding-top:20px;
+}
+.icon i{
+    font-size: 35px;
+    padding-left:10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="./Wine_files/logo-removebg-preview.png" alt="wine-logo">
+            <div class="nav-right">
+                <a href="http://127.0.0.1:5500/wine/Wine.html#">HOME</a>
+                <a href="http://127.0.0.1:5500/wine/Wine.html#">WINEs</a>
+                <a href="http://127.0.0.1:5500/wine/Wine.html#">GIFTS</a>
+                <a href="http://127.0.0.1:5500/wine/Wine.html#">ABOUT US</a>
+                <a href="http://127.0.0.1:5500/wine/Wine.html#">CONTACT </a>
+            </div>
+        </nav>
+        <div class="article">
+            <h2>   The Best Collections of 2023
+            </h2>
+            <h3>
+                AMAZING <br> WINE SHOP
+            </h3>
+            <button>SHOP NOW</button>
+        </div>
+    </header>
+    <div class="picture">
+            <div class="khan"><img src="./Wine_files/weno1.webp"></div>
+            <div class="khan"><img src="./Wine_files/weno2.jpg"></div>
+            <div class="khan"><img src="./Wine_files/weno3.jpeg"></div>
+    </div>
+    
+    <div class="bottle"> 
+        <div class="winee">
+            <div class="darkwine">
+                <img src="./Wine_files/dark_wine-removebg-preview (4).png" alt="darkwine">
+                <p>Dark Wine</p>
+        </div>
+        <div class="darkwine">
+            <img src="./Wine_files/no-removebg-preview.png" alt="wine">
+            <p>Red Wine</p>
+        </div>
+        <div class="darkwine">
+            <img src="./Wine_files/yes-removebg-preview.png" alt="wine">
+            <p>Pull Wine</p>
+        </div>
+        <div class="darkwine">
+            <img src="./Wine_files/idilio-removebg-preview.png" alt="wine">
+            <p>Blue Wine</p>
+        </div>
+        <div class="darkwine">
+            <img src="./Wine_files/weeding-removebg-preview.png" alt="wine">
+            <p>Rose Wine</p>
+        </div>
+        <div class="darkwine">
+            <img src="./Wine_files/redd-removebg-preview.png" alt="wine">
+            <p>Yellow Wine</p>
+        </div>
+    </div>
+</div>
+<div class="last"> </div> 
+   <!-- <div class="Hand-Picked"> -->
+         <div class="picked">
+             <h1>Hand-Picked</h1>
+                <span>Collections</span>
+                <h2>Save More, Pure More</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, repellendus. 
+                    Delectus, tenetur enim repellendus architecto deserunt fugit.</p>
+                    <button>SHOP NOW</button>
+        
+    </div>
+
+<div class="Feature">
+        <h3>Feature Product</h3>
+             <div class="seller">
+                    <p id="best">BEST SELLER</p>
+                    <p>NEW WINE</p>
+                    <p>MOST WANTED</p>
+        </div> 
+        <div class="bottle"> 
+            <div class="wineee">
+                <div class="darko">
+                    <img src="./Wine_files/wine2-removebg-preview.png" alt="darkwine">
+                  <p>Quinta do Crasto</p>
+                  <span>Rs 3999</span>
+            </div>
+            <div class="darko">
+                <img src="./Wine_files/wine4-removebg-preview.png" alt="wine">
+                <p>Quinta do Crasto</p>
+                <span>Rs 6999</span>
+            </div>
+            <div class="darko">
+                <img src="./Wine_files/wine5-removebg-preview.png" alt="wine">
+                <p>Quinta do Crasto</p>
+                <span>Rs 8999</span>
+            </div>
+            <div class="darko">
+                <img src="./Wine_files/wine6-removebg-preview.png" alt="wine">
+                <p>Quinta do Crasto</p>
+                <span>Rs 9999</span>
+            </div>
+            <div class="darko">
+                <img src="./Wine_files/wine7-removebg-preview.png" alt="wine">
+                <p>Quinta do Crasto</p>
+                <span>Rs 5999</span>
+            </div>
+      </div>
+</div>
+        <div class="color">
+            <div class="Review">
+                <h1>Customer Review</h1>
+                <div class="picc">
+                    <img src="./Wine_files/IMG_1788.JPG" alt="picture">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laudantium perspiciatis aspernatur br quisquam? Provident ipsum distinctio 
+                 voluptas quas rem maxime quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore 
+                  molestias suscipit repudiandae rerum maxime iure quas animi odit minus reiciendis aspernatur 
+                  distinctio dolores saepe minima eum, ratione repellat modi excepturi.</p>
+                  <button>Your Review</button>
+                </div>
+            </div>
+        </div>
+                <footer>
+                    <div class="footer-1">
+                        <div class="footer-2">
+                            <p>Use Full Links</p>
+                            <ul>
+                                <li>About</li>
+                                <li>Servies</li>
+                                <li>Contact</li>
+                                <li>Blog</li>
+                                <li>Shop</li>
+                            </ul>
+                        </div>
+                    <div class="footer-3">
+                            <p>New Sletter</p>
+                            <input type="email" placeholder=" Your Email Address" required="" name="Email">
+                           <button>Subscribe Now</button>
+                      </div>
+                        <div class="footer-4">
+                            <p>CONTACT</p>
+                            <h5>123,XYZ University Road <br>
+                                Peshawar KPK Pakistan
+                            </h5>
+                            <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: #0233f7;"></i>
+                            <i class="fa-brands fa-whatsapp " style="color:blue"></i>
+                            <i class="fa-brands fa-youtube" style="color: #0011ff;"></i>
+                            <i class="fa-brands fa-instagram" style="color: #005eff;"></i>
+                            <i class="fa-brands fa-twitter" style="color: #005af5;"></i>
+                        </div>
+
+                    </div>
+                </div>
+        </footer>
+
+</div></body></html>
